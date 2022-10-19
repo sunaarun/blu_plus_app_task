@@ -1,0 +1,232 @@
+[
+  {
+    "Category": "Brain",
+    "Value": [
+      {
+        "ErrorType": "backendToBrain",
+        "ErrorList": [
+          {
+            "HexCode": "0x1100",
+            "DecCode": 4352,
+            "reason": ""
+          },
+          {
+            "HexCode": "0x1101",
+            "DecCode": 4353,
+            "reason": "Communication timeouts"
+          },
+          {
+            "HexCode": "0x1102",
+            "DecCode": 4354,
+            "reason": "File error"
+          },
+          {
+            "HexCode": "0x1103",
+            "DecCode": 4355,
+            "reason": "GNSS error"
+          },
+          {
+            "HexCode": "0x1104",
+            "DecCode": 4352,
+            "reason": "IP error"
+          },
+          {
+            "HexCode": "0x1105",
+            "DecCode": 4357,
+            "reason": "HTTP error"
+          }
+        ]
+      },
+      {
+        "ErrorType": "userToBrain",
+        "ErrorList": [
+          {
+            "HexCode": "0x1001",
+            "DecCode": 4097,
+            "reason": "Memory Error, Cycle Req"
+          },
+          {
+            "HexCode": "0x1002",
+            "DecCode": 4098,
+            "reason": "Technical Error, power cycle req"
+          },
+          {
+            "HexCode": "0x1003",
+            "DecCode": 4099,
+            "reason": "No Network Connection"
+          },
+          {
+            "HexCode": "0x1004",
+            "DecCode": 4100,
+            "reason": "No GPS connection"
+          },
+          {
+            "HexCode": "0x1005",
+            "DecCode": 4101,
+            "reason": "Node not available"
+          }
+        ]
+      },
+
+      {
+        "ErrorType": "BLEToBrain",
+        "ErrorList": [
+          {
+            "HexCode": "0x1200",
+            "DecCode": 4608,
+            "reason": ""
+          },
+          {
+            "HexCode": "0x1201",
+            "DecCode": 4609,
+            "reason": "Error setting advertisement data"
+          },
+          {
+            "HexCode": "0x1202",
+            "DecCode": 4610,
+            "reason": "Error enabling advertisement"
+          },
+          {
+            "HexCode": "0x1203",
+            "DecCode": 4611,
+            "reason": "Error initialising security"
+          },
+          {
+            "HexCode": "0x1204",
+            "DecCode": 4612,
+            "reason": "Device disconnect error"
+          },
+          {
+            "HexCode": "0x1205",
+            "DecCode": 4613,
+            "reason": "More than 3 devices"
+          }
+        ]
+      }
+    ]
+  },
+  { "Category": "NODE",
+    "Value": [
+      {
+        "ErrorType": "SwitchUserDev",
+        "ErrorList": [
+          {
+            "HexCode": "0x2000",
+            "DecCode": 8192,
+            "reason": ""
+          },
+          {
+            "HexCode": "0x2001",
+            "DecCode": 8193,
+            "reason": "Efuse error"
+          },
+          {
+            "HexCode": "0x2101",
+            "DecCode": 8194,
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "ErrorType": "TempUser",
+        "ErrorList": [
+          {
+            "HexCode": "0x3000",
+            "DecCode": 12288,
+            "reason": ""
+          },
+          {
+            "HexCode": "0x3001",
+            "DecCode": 12289,
+            "reason": "Sensor not connected"
+          },
+          {
+            "HexCode": "0x3002",
+            "DecCode": 12290,
+            "reason": "Lower limit temperature warning"
+          },
+          {
+            "HexCode": "0x3003",
+            "DecCode": 12291,
+            "reason": "Upper limit temperature warning"
+          }
+        ]
+      },
+      {
+        "ErrorType": "Ambient",
+        "ErrorList": [
+          {
+            "HexCode": "0x4000",
+            "DecCode": 16384,
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "ErrorType": "BatteryUser",
+        "ErrorList": [
+          {
+            "HexCode": "0x5000",
+            "DecCode": 20480,
+            "reason": ""
+          },
+          {
+            "HexCode": "0x5001",
+            "DecCode": 20481,
+            "reason": "Temperature sensor not connected"
+          },
+          {
+            "HexCode": "0x5002",
+            "DecCode": 20482,
+            "reason": "Lower limit SOC warning (<20%)"
+          },
+          {
+            "HexCode": "0x5003",
+            "DecCode": 20483,
+            "reason": "Lower limit SOC error (<10%)"
+          },
+          {
+            "HexCode": "0x5004",
+            "DecCode": 20484,
+            "reason": "Battery temperature warning (>60 C)"
+          },
+          {
+            "HexCode": "0x5005",
+            "DecCode": 20485,
+            "reason": "Battery temperature error (>90 C)"
+          },
+          {
+            "HexCode": "0x5006",
+            "DecCode": 20485,
+            "reason": "Fuse warning -> Min.one fuse not connected"
+          }
+        ]
+      },
+      {
+        "ErrorType": "LevelUser",
+        "ErrorList": [
+          {
+            "HexCode": "0x6000",
+            "DecCode": 24576,
+            "reason": ""
+          },
+          {
+            "HexCode": "0x6001",
+            "DecCode": 24577,
+            "reason": "Sensor not connected"
+          },
+          {
+            "HexCode": "0x6002",
+            "DecCode": 24578,
+            "reason": "Lower Limit level warning"
+          },
+          {
+            "HexCode": "0x6003",
+            "DecCode": 24579,
+            "reason": "Upper Limit level warning"
+          }
+        ]
+      }
+    ]
+  }
+]
